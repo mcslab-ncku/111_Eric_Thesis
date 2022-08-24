@@ -48,7 +48,6 @@ National Cheng Kung University \\
 
 \maketitle
 
-\begin{titlepage}
     \begin{center}
         {\bf\large 
 Investigating Performance of Greedy-based 
@@ -68,15 +67,15 @@ with Skeleton Framework
 Small-sized Unmanned aerial vehicles (drones) have physical constraints that limit their use. To overcome the limitations, multiple UAVs can cooperate to complete missions as a UAV swarm. To maintain coordination and fly formation, the UAVs must exchange important information with each other. Broadcasting is the most efficient way of spreading messages to the entire swarm. However, when the messages are disseminated using the conventional flooding method, the serious transmission redundancy causes the Broadcast Strom Problem, placing a heavy burden on the already limited resources of UAVs. This paper reviews the current state of UAV swarm communication and investigates two greedy-based broadcast source selection algorithms, namely Greedy and Defer, applied to broadcast communications in large-scale fixed-shape UAV swarms with star-like skeleton framework. The skeleton here represents the most important and stable nodes of the UAV swarm, which have access to extensive resources. To further reduce the broadcast costs, we also adapt the algorithms to simplify the star-like skeletons. Simulation results show the adapted source selection algorithms and modified skeletons require significantly fewer broadcasting nodes and iterations than other existing skeleton-based approaches in fixed-shaped UAV swarm broadcast communications.
  
     \textbf{Keywords:} {Unmanned Aerial Vehicle (UAV) broadcast communication, skeleton, Fixed-shape flying formation, swarm networks, flying ad-hoc networks}
-\end{titlepage}
+
 
 \pagenumbering{roman}
+\setcounter{page}{3}
 %*\addcontentsline{toc}{section}{Contents}
 \tableofcontents 
 \newpage
 \addcontentsline{toc}{section}{List of Figures}
 \listoffigures \newpage
-\setcounter{page}{1}
 \pagenumbering{arabic}
 
 %*------------------------------------------------------
@@ -618,7 +617,7 @@ In this thesis, we introduce the background and current state of small-size UAV 
 
 %*------------------------------------------------------
 
-
+\newpage
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{IEEEtran}
 \bibliography{references}
